@@ -14,39 +14,39 @@ A free and open source version control system. Version control is a management o
 
 Initializes a new repository
 <br/>
-Command : git init
+Command : ``` git init ```
 
 # Create connection
 
 Create a connection between local repository and remote repository
 <br/>
-Command : git remote add origin "https://github...."
+Command : ```git remote add origin "https://github...." ```
 
 # Cloning a Git repository
 
 Bring a repository into a folder in your local machine
 <br/>
-Command : git clone git@github.com:gwenf/demo-repo.git
+Command : ```git clone git@github.com:gwef/demo-repo.git```
 
 # Add/Stage the file
 
 Track down the file and changes in git
 <br/>
-Command : git add .  // for adding all files
+Command : ```git add .```  // for adding all files
 <br/>
-Command : git add index.html  // for adding index.html file
+Command : ```git add index.html```  // for adding index.html file
 
 # Commit file
 
 Save the file in git
 <br/>
-Command : git commit -m "added new task"
+Command : ```git commit -m "added new task"```
 
 # Push
 
 Upload git commits to remote repository
 <br/>
-Command : git push -u origin main
+Command : ```git push -u origin main```
 
 # Branches
 
@@ -55,7 +55,7 @@ Command : git push -u origin main
 
 ## Create new branch
 
-Command : git checkout -b test
+Command : ```git checkout -b test```
 
 ## Steps to add this new branch to main branch
 
@@ -66,19 +66,19 @@ Command : git checkout -b test
 
 # Undo operation
 
-Command : git reset
+Command : ```git reset```
 
 ## Undo commits
 
-Command : git reset HEAD~1
+Command : ```git reset HEAD~1```
 
 ## Goto particular commit without changes on main file
 
-Commands : git reset hash. Hash is the unique no with every commits done.
+Commands : ```git reset hash. Hash is the unique no with every commits done.```
 
 ## Goto particular commits with changes on main file
 
-Command : git reset --hard hash
+Command : ```git reset --hard hash```
 
 # Fork
 
